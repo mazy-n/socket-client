@@ -1,0 +1,57 @@
+.page-login {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		font-family: -apple-system-font, Helvetica Neue, Helvetica,
+			sans-serif;
+
+		.nick-name {
+			font-size: 17px;
+			color: rgba($color: #000000, $alpha: 0.9);
+			padding: 16px 32px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.label {
+				margin-right: 20px;
+			}
+			.input{
+				border-bottom: 1px solid rgba($color: #636363, $alpha: .2);
+				.input__inner{
+					width: 100%;
+					border: 0;
+					outline: 0;
+					-webkit-appearance: none;
+					background-color: transparent;
+					font-size: inherit;
+					color: inherit;
+					height: 1.41176471em;
+					line-height: 1.41176471;
+					caret-color: #07c160;
+				}
+			}
+			margin-bottom: 30px;
+		}
+
+		.button{
+			width: 50%;
+			text-align: center;
+			padding: 10px 0;
+			color: #07c160;
+			background: #e8e8e8;
+			border-radius: 5px;
+
+			&:active{
+				background: #bbbbbbbd;
+			}
+		}
+	}
+}
